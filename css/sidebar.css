@@ -1,0 +1,38 @@
+.sidebar {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .sidebar h6 {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .price-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .filter-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 20px;
+  }
+  .top-rate-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .top-rate-item img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  .top-rate-item p {
+    margin: 0;
+    font-size: 14px;
+  }

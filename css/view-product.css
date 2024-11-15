@@ -1,0 +1,135 @@
+.container {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-img-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.small-img-container {
+    display: flex;
+    gap: 5px;
+    width: 25%; 
+    flex-direction: column;
+    height: 390px; 
+}
+
+.small-img {
+    height: calc(390px / 3);
+    width: 100%; 
+    object-fit: cover; 
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.small-img:hover {
+    border-color: #007bff;
+}
+.large-img { 
+    flex: 1;
+    height: 390px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-details {
+    margin-top: 20px;
+}
+
+.product-details h1 {
+    font-weight: bold;
+}
+
+.product-details .price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.rating-bar {
+    height: 10px;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 1px;
+}
+
+.rating-number {
+    width: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.rating-percentage {
+    width: 50px;
+    text-align: left;
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-container button {
+    flex: 1;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.content-section {
+    width: 80%; 
+    margin: 0 auto;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    align-items: start;
+}
+
+.content-section.active {
+    max-height: 500px; 
+    opacity: 1;
+}
+
+.review-card {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.review-form input,
+.review-form textarea {
+    margin-bottom: 10px;
+}
+
+.btn-container {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+
+

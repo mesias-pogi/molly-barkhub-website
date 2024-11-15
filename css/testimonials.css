@@ -1,0 +1,66 @@
+.testimonial-card {
+    max-width: 500px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+}
+.testimonial-card h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.testimonial-card .subtitle {
+    font-family: 'Playfair Display', serif;
+    color: #f4a261;
+    font-size: 1rem;
+}
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 40px);
+}
+.testimonial-content {
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 40px;
+    position: relative;
+}
+.testimonial-content::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 10px);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+.testimonial-content.light {
+    background-color: #f4a261;
+    color: #333;
+}
+.testimonial-content.light::after {
+    border-color: #f4a261 transparent transparent transparent;
+}
+.name {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.role {
+    font-size: 0.9rem;
+    color: #f4a261;
+}
+.quote-icon {
+    color: #f4a261;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}

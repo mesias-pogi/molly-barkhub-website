@@ -1,0 +1,35 @@
+.section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .btn-group .btn {
+    font-size: 0.9rem;
+  }
+  .card {
+    text-align: center;
+    border: none;
+  }
+  .product-name {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .product-price {
+    color: #ffa500;
+    font-weight: bold;
+  }
+  .old-price {
+    text-decoration: line-through;
+    color: #999;
+  }
+  .badge-sale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff4040;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.25em 0.5em;
+    border-radius: 0.25rem;
+  }

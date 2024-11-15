@@ -1,0 +1,56 @@
+
+.footer {
+    background-color: #454141;
+    padding: 0px 0;
+}
+.footer .col h6 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.footer .col ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer .col ul li {
+    margin-bottom: 0.5rem;
+}
+.footer .col ul li a {
+    color: #333;
+    text-decoration: none;
+} 
+.footer .col ul li a:hover {
+    text-decoration: underline;
+}
+.footer .subscribe-input {
+    max-width: 250px;
+    display: flex;
+    margin-top: 10px;
+}
+.footer .subscribe-input input {
+    border: 1px solid #ccc;
+    border-right: none;
+    padding: 5px;
+    flex-grow: 1;
+}
+.footer .subscribe-input button {
+    border: 1px solid #333;
+    background-color: #333;
+    color: white;
+    padding: 5px 15px;
+}
+.footer .social-icons a {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+.footer .social-icons a:hover {
+    color: #555;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    font-size: 0.9rem;
+    color: #777;
+}

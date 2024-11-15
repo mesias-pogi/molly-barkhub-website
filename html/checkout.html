@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>checkout page</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="/css/payment.css">
+        <link rel="stylesheet" href="/css/slide-up.css">
+        <link rel="stylesheet" href="/css/footer.css">
+    </head>
+    <body style="background-color: #e9e9eb;">
+        <nav class="navbar navbar-expand-lg pt-1" style="background-color: #333;">
+            <div class="d-flex">
+                <!-- Logo and Navbar Links Side-by-Side --> 
+                <a class="navbar-brand d-flex align-items-center slide-up" href="index.html">
+                    <img src="/images/logo/logo.png" width="100px" height="70px" alt="Logo"> 
+                    <span class="ms-2 text-light"> <b>Molly BarkHub</b></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> 
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-light slide-up" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light slide-up" href="shop.html">Pets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light slide-up" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light slide-up" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mt-5">
+            <!-- Progress bar -->
+            <div class="progress-bar-step text-center">
+                <div class="step completed slide-up">
+                    <span>Personal details</span>
+                    <i class="fas fa-check-circle ml-2"></i>
+                </div>
+                <div class="step completed slide-up">
+                    <span>Billing address</span>
+                    <i class="fas fa-check-circle ml-2"></i>
+                </div>
+                <div class="step completed slide-up">
+                    <span>Shipping address</span>
+                    <i class="fas fa-check-circle ml-2"></i>
+                </div>
+                <div class="step active slide-up">
+                    <span>Payment method</span>
+                </div>
+            </div>
+
+            <!-- Payment method card -->
+            <div class="card p-4 mt-3">
+                <h5 class="font-weight-bold mb-4 slide-up">PAYMENT METHOD</h5>
+
+                <!-- Choose payment method -->
+                <div class="mb-3">
+                    <label class="font-weight-bold">Choose a payment method</label>
+                    <div class="payment-methods d-flex justify-content-between">
+                        <button class="btn active slide-up">
+                            <div class="text-center">
+                                <img src="/images/background/card.jpg" alt="Credit Card">
+                                <div class="mt-2">CREDIT CARD</div>
+                            </div>
+                        </button>
+                        <button class="btn">
+                            <div class="text-center slide-up">
+                                <img src="/images/background/paypal.jpg" alt="PayPal">
+                                <div class="mt-2">PAY PAL</div>
+                            </div>
+                        </button>
+                        <button class="btn">
+                            <div class="text-center slide-up">
+                                <img src="/images/background/cod.jpg" alt="Pay Cash">
+                                <div class="mt-2">PAY CASH</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card details form -->
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="cardNumber slide-up">Card Number</label>
+                            <div class="input-group slide-up">
+                                <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9101 1234">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">
+                                        <img height="30px" width="50px" src="/images/background/card.jpg" alt="Visa">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-4 slide-up">
+                            <label for="expirationDate">Expiration Date</label>
+                            <input type="text" class="form-control" id="expirationDate" placeholder="MM/YY">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-8 slide-up">
+                            <label for="cardHolder">Card Holder Name</label>
+                            <input type="text" class="form-control" id="cardHolder" placeholder="John Doe">
+                        </div>
+                        <div class="form-group col-md-4 slide-up">
+                            <label for="cvv">CVV</label>
+                            <input type="password" class="form-control" id="cvv" placeholder="123">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-md-8 slide-up">
+                            <button type="button" class="btn place-order">SUM: $523.00</button>
+                        </div>
+                        <div class="col-md-4 slide-up">
+                            <button type="submit" class="btn place-order"><a class="text-light" href="thank-you.html">PLACE ORDER</a></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    <!-- footer -->
+    <footer class="footer mt-5">
+    <div style="margin-left: 100px; margin-right: 100px;">
+        <div class="row text-center text-md-start">
+            <div class="col-md-4 mb-4">
+                <div class="logo slide-up">
+                    <img src="/images/logo/logo.png" alt="Logo" width="100" height="100" ><span class="text-light">tepen website</span>
+                </div>
+                <p class="slide-up text-light">bunny ecommerce website</p>
+            </div>
+            <div class="col-md-3">
+                <h6 class="slide-up text-light">Navigation</h6>
+                <ul class="list-unstyled slide-up">
+                    <li><a href="#" class="text-white">Home</a></li>
+                    <li><a href="#" class="text-white">shop</a></li>
+                    <li><a href="#" class="text-white">about</a></li>
+                    <li><a href="#" class="text-white">services</a></li>
+                    <li><a href="#" class="text-white">contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-light">Dog breeds</h6>
+                <ul class="list-unstyled slide-up">
+                    <li><a href="#" class="text-light">bulldog</a></li>
+                    <li><a href="#" class="text-light">golden retriever  </a></li>
+                    <li><a href="#" class="text-light">chihuahua         </a></li>
+                    <li><a href="#" class="text-light">german            </a></li>
+                    <li><a href="#" class="text-light">husky             </a></li>
+                    <li><a href="#" class="text-light">pitbull           </a></li>
+                    <li><a href="#" class="text-light">Rootweil          </a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h6 class="text-light">Services</h6>
+                <ul class="list-unstyled slide-up">
+                    <li><a href="#" class="text-white">Grooming</a></li>
+                    <li><a href="#" class="text-white">pet consultation</a></li>
+                    <li><a href="#" class="text-white"></a></li>
+                    <li><a href="#" class="text-white"></a></li>
+                    <li><a href="#" class="text-white"></a></li>
+                    <li><a href="#" class="text-white"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p class="text-center text-light">&copy; 2022 molly bark-hub • All Rights Reserved</p>
+    </div>
+    </footer>
+    <!-- end footer -->
+
+
+    <!-- Bootstrap JS and Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/slide-up.js"></script>
+    </body>
+</html>

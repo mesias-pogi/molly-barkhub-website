@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/slide-up.css">
+    <link rel="stylesheet" href="/css/hover-product.css">
+</head>
+<body style="background-color: #e9e9eb;">
+    <!-- Navbar --> 
+    <div class="container-fluid" style="height: 520px; background-image: url('/images/background/main-bg.png'); background-size: 100% 100%;">
+    <nav class="navbar navbar-expand-lg pt-1">
+        <div class="d-flex">
+            <!-- Logo and Navbar Links Side-by-Side --> 
+            <a class="navbar-brand d-flex align-items-center slide-up" href="index.html">
+                <img src="/images/logo/logo.png" width="100px" height="70px" alt="Logo"> 
+                <span class="ms-2 text-light"> <b>Molly BarkHub</b></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link slide-up" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link slide-up" href="shop.html">Pets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link slide-up" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link slide-up" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-2"></div>
+            <div class="col-md-3 mt-5">
+                <h1 class="text-light slide-up">Home -> Shop</h1>
+            </div>
+            <div class="col-md-7"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+
+          <div class="col-md-3 sidebar">
+            <div class="mb-4 mt-5">
+              <input type="text" class="form-control slide-up" placeholder="Search product">
+            </div>
+            <h6><b>Bunny Categories</b></h6>
+            <ul class="list-unstyled slide-up">
+              <a href="view-bulldog.html"><li>Bulldog<span class="float-right slide-up">63</span></li></a>
+              <a href="view-chihuahua.html"><li>Chihuahua<span class="float-right slide-up">80</span></li></a>
+              <a href="view-german.html"><li>German<span class="float-right slide-up">90</span></li></a>
+              <a href="view-golden.html"><li>Golden Retriever<span class="float-right slide-up">65</span></li></a>
+              <a href="view-husky.html"><li>Husky<span class="float-right slide-up">10</span></li></a>
+              <a href="view-pitbull.html"><li>Pitbull<span class="float-right slide-up">60</span></li></a>
+              <a href="view-rootweil.html"><li>Rootweil<span class="float-right slide-up">100</span></li></a>
+            </ul>
+            <br><br>
+            <h6><b>Filter by Price</b></h6>
+            <div class="price-filter mb-2 slide-up">
+              <input type="range" class="form-control-range" min="0" max="50" step="5">
+              <small>Price: ₱0 - ₱100 </small>
+            </div>
+            <button class="btn filter-btn slide-up">Filter</button>
+          </div>
+
+
+          <div class="col-md-9 product-grid slide-up">
+            <h3><b>Shop now</b></h3>
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up mb-3 slide-up">
+                <a href="view-husky.html"><img src="/images/Husky/1.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱100.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up mb-3 slide-up">
+                <a href="view-husky.html"><img src="/images/Husky/10.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱300.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-chihuahua.html"><img src="/images/Chihuahua/1.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱300.00</b></h4>
+              </div> 
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-pitbull.html"><img src="/images/Pitbull/7.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱400.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-pitbull.html"><img src="/images/Pitbull/8.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱100.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-pitbull.html"><img src="/images/Pitbull/9.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱500.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-bulldog.html"><img src="/images/Bulldog/16.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱500.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-bulldog.html"><img src="/images/Bulldog/17.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱300.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-german.html"><img src="/images/German Shepherd/3.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱200.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-german.html"><img src="/images/German Shepherd/4.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱300.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-golden.html"><img src="/images/Golden Retriever/1.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱300.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-golden.html"><img src="/images/Golden Retriever/2.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱200.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-golden.html"><img src="/images/Golden Retriever/3.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱200.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-husky.html"><img src="/images/Husky/7.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱500.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-husky.html"><img src="/images/Husky/8.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱300.00</b></h4>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 product-item slide-up slide-up">
+                <a href="view-husky.html"><img src="/images/Husky/9.png" alt="Product" class="img-fluid"></a>
+                <h4 class="text-center"><b>₱200.00</b></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <!-- pagination -->
+    <div class="w3-container">
+        <div class="w3-center">
+        <div class="w3-bar text-dark text-center slide-up">
+            <a href="#" class="w3-button text-dark">Prev.</a>
+            <a href="#" class="w3-button text-dark">1</a>
+            <a href="#" class="w3-button text-dark">2</a>
+            <a href="#" class="w3-button text-dark">3</a>
+            <a href="#" class="w3-button text-dark">4</a>
+            <a href="#" class="w3-button text-dark">Next</a>
+        </div>
+        </div> 
+    </div>
+        <br><br>
+
+        <!-- footer -->
+    <footer class="footer mt-5">
+      <div style="margin-left: 100px; margin-right: 100px;">
+          <div class="row text-center text-md-start">
+              <div class="col-md-4 mb-4">
+                  <div class="logo slide-up">
+                      <img src="/images/logo/logo.png" alt="Logo" width="100" height="100" ><span class="text-light">tepen website</span>
+                  </div>
+                  <p class="slide-up text-light">bunny ecommerce website</p>
+              </div>
+              <div class="col-md-3">
+                  <h6 class="slide-up text-light">Navigation</h6>
+                  <ul class="list-unstyled slide-up">
+                      <li><a href="#" class="text-white">Home</a></li>
+                      <li><a href="#" class="text-white">shop</a></li>
+                      <li><a href="#" class="text-white">about</a></li>
+                      <li><a href="#" class="text-white">services</a></li>
+                      <li><a href="#" class="text-white">contact</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h6 class="text-light">Dog breeds</h6>
+                  <ul class="list-unstyled slide-up">
+                      <li><a href="#" class="text-light">bulldog</a></li>
+                      <li><a href="#" class="text-light">golden retriever  </a></li>
+                      <li><a href="#" class="text-light">chihuahua         </a></li>
+                      <li><a href="#" class="text-light">german            </a></li>
+                      <li><a href="#" class="text-light">husky             </a></li>
+                      <li><a href="#" class="text-light">pitbull           </a></li>
+                      <li><a href="#" class="text-light">Rootweil          </a></li>
+                  </ul>
+              </div>
+              <div class="col-md-2">
+                  <h6 class="text-light">Services</h6>
+                  <ul class="list-unstyled slide-up">
+                      <li><a href="#" class="text-white">Grooming</a></li>
+                      <li><a href="#" class="text-white">pet consultation</a></li>
+                      <li><a href="#" class="text-white"></a></li>
+                      <li><a href="#" class="text-white"></a></li>
+                      <li><a href="#" class="text-white"></a></li>
+                      <li><a href="#" class="text-white"></a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div>
+          <p class="text-center text-light">&copy; 2022 molly bark-hub • All Rights Reserved</p>
+      </div>
+      </footer>
+      <!-- end footer -->
+
+
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/js/slide-up.js"></script>
+</body>
+</html>

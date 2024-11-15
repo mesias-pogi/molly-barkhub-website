@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/categories.css">
+    <link rel="stylesheet" href="/css/best seller.css">
+    <link rel="stylesheet" href="/css/testimonials.css">
+    <link rel="stylesheet" href="/css/slide-up.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <style>
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-weight: 500;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #fdd835 !important;
+        }
+    </style>
+</head>
+<body style="background-color: #e9e9eb;">
+    <!-- Navbar --> 
+    <div class="container-fluid" style="height: 520px; background-image: url('/images/background/main-bg.png'); background-size: 100% 100%;">
+    <nav class="navbar navbar-expand-lg pt-1" style="background: transparent;">
+        <div class="d-flex">
+            <!-- Logo and Navbar Links Side-by-Side --> 
+            <a class="navbar-brand d-flex align-items-center slide-up" href="index.html">
+                <img src="/images/logo/logo.png" width="100px" height="70px" alt="Logo"> 
+                <span class="ms-2 text-light"> <b>Molly BarkHub</b></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link slide-up" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link slide-up" href="shop.html">Pets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link slide-up" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link slide-up" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row" style="margin-top: 50px;">
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+            <h1 class="text-light slide-up">Find Your Pet</h1>
+            <h5 class="mt-5 text-light slide-up">in our shelter there are several pets who wait only for you. they want a lovely family and cozy home. please help the to find a new family, who will love them!</h5>
+        </div>
+        <div class="col-md-7"></div>
+    </div>
+    <!-- Row for Boxes -->
+    <div class="row text-center mt-4 gap-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-2 slide-up">
+            <div class="p-4 bg-light rounded shadow" style="height: 150px;">
+                <h5>Adopt a Pet</h5>
+                <p>Help find a loving home for a pet in need.</p>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="p-4 bg-light rounded shadow slide-up" style="height: 150px;">
+                <h5>Volunteer</h5>
+                <p>Join us in taking care of these wonderful pets.</p>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="p-4 bg-light rounded shadow slide-up" style="height: 150px;">
+                <h5>Donate</h5>
+                <p>Your support helps us provide for our animals.</p>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    </div>
+
+    <!-- categories -->
+    <div class="container my-4">
+        <h2 class="container header-title mb-0 slide-up">Popular Puppy Breeds</h2>
+        <!-- Carousel -->
+        <div id="breedCarousel" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- Carousel item 1 -->
+          <div class="carousel-item active">
+            <div class="row justify-content-center g-4"> 
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img height="20px" src="/images/breed/husky.jpg" class="card-img-top" alt="Breed 1">
+                  <div class="card-body mb-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">Husky</h5>
+                      <a href="view-husky.html" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img src="/images/breed/golden.jpg" class="card-img-top" alt="Breed 2">
+                  <div class="card-body mb-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">Golden retriever</h5>
+                      <a href="view-golden.html" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img src="/images/breed/pitbull.jpg" class="card-img-top" alt="Breed 3">
+                  <div class="card-body mb-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">Pitbull</h5>
+                      <a href="view-pitbull.html" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img src="/images/breed/german.jpg" class="card-img-top" alt="Breed 4">
+                  <div class="card-body mb-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">German Shepherd</h5>
+                      <a href="view-german.html" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Carousel item 2 -->
+          <div class="carousel-item">
+            <div class="row justify-content-center g-4">
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img src="/images/breed/bulldog.jpg" class="card-img-top" alt="Breed 5">
+                  <div class="card-body mb-0 mt-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">Bulldog</h5>
+                      <a href="view-bulldog.html" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img src="/images/breed/chihuahua.jpg" class="card-img-top" alt="Breed 6">
+                  <div class="card-body mb-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">Chihuahua</h5>
+                      <a href="view-chihuahua.html" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img src="/images/breed/poddle.jpg" class="card-img-top" alt="Breed 7" style="background-size: auto;">
+                  <div class="card-body mb-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">Poddle</h5>
+                      <a href="" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img src="/images/breed/pomeranian.jpg" class="card-img-top" alt="Breed 8">
+                  <div class="card-body mb-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">Pomeranian</h5>
+                      <a href="#" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>        
+           <!-- Carousel item 3 -->
+           <div class="carousel-item">
+            <div class="row justify-content-center g-4">
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img src="/images/breed/dach.jpg" class="card-img-top" alt="Breed 5">
+                  <div class="card-body mb-0 mt-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">Dachshunds</h5>
+                      <a href="#" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img src="/images/breed/french.jpg" class="card-img-top" alt="Breed 6">
+                  <div class="card-body mb-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">French Bulldog</h5>
+                      <a href="#" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img src="/images/breed/root.jpg" class="card-img-top" alt="Breed 7" style="background-size: auto;">
+                  <div class="card-body mb-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">Rootweil</h5>
+                      <a href="view-rootweil.html" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 slide-up">
+                <div class="card text-center">
+                  <img src="/images/breed/terier.jpg" class="card-img-top" alt="Breed 8">
+                  <div class="card-body mb-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="breed-info mb-0">Black terrier</h5>
+                      <a href="#" class="btn btn-outline-primary btn-sm">View more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+      <!-- end categories -->
+
+      <!-- Best seller -->
+      <div class="container py-5">
+        <div class="section-title slide-up">OUR BEST SELLER</div>
+        <div class="d-flex justify-content-center mb-4">
+          <div class="btn-group slide-up">
+            <button type="button" class="slide-up btn btn-warning text-white" onclick="showCategory('newArrivals')">New Arrivals</button>
+            <button type="button" class="slide-up btn btn-outline-secondary" onclick="showCategory('bestSellers')">Best Sellers</button>
+            <button type="button" class="slide-up btn btn-outline-secondary" onclick="showCategory('topRates')">Top Rates</button>
+          </div>
+        </div>    
+        <!-- New Arrivals Grid -->
+        <div class="row category-content" id="newArrivals" style="display: none;">
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-rootweil.html"><img src="/images/Rootweil/15.png" class="card-img-top" alt="New Product 1"></a>
+              <div class="card-body">
+                <div class="product-price">$20.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-rootweil.html"><img src="/images/Rootweil/5.png" class="card-img-top" alt="New Product 1"></a>
+              <div class="card-body">
+                <div class="product-price">$20.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-rootweil.html"><img src="/images/Rootweil/6.png" class="card-img-top" alt="New Product 1"></a>
+              <div class="card-body">
+                <div class="product-price">$20.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Best Sellers Grid -->
+        <div class="row category-content" id="bestSellers">
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-golden.html"><img src="/images/Golden Retriever/1.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00 best</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-german.html"><img src="/images/German Shepherd/7.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-husky.html"><img src="/images/Husky/4.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-chihuahua.html"><img src="/images/Chihuahua/4.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-bulldog.html"><img src="/images/Bulldog/3.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-german.html"><img src="/images/German Shepherd/10.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-bulldog.html"><img src="/images/Bulldog/4.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-golden.html"><img src="/images/Golden Retriever/13.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-rootweil.html"><img src="/images/Rootweil/11.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-pitbull.html"><img src="/images/Pitbull/16.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-husky.html"><img src="/images/Husky/16.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-husky.html"><img src="/images/Husky/6.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Top Rates Grid -->
+        <div class="row category-content" id="topRates" style="display: none;">
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-chihuahua.html"><img src="/images/Chihuahua/4.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-bulldog.html"><img src="/images/Bulldog/3.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-german.html"><img src="/images/German Shepherd/10.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-bulldog.html"><img src="/images/Bulldog/4.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-4 slide-up">
+            <div class="card position-relative">
+              <a href="view-chihuahua.html"><img src="/images/Chihuahua/18.png" class="card-img-top" alt="Dog House"></a>
+              <div class="card-body">
+                <div class="product-price">$60.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+       
+
+    <!-- testimonials -->
+    <h2 class="text-center slide-up">Customer Testimonials</h2>
+    <div id="testimonialCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active mt-3">
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="testimonial-card bg-light shadow slide-up">
+                        <h2 class="mt-3">Our Client <span class="subtitle">Testimonials</span></h2>
+                        <img src="/images/person/2a8f6d12a3994fcb29b3e499d6733276.jpg" alt="Client Photo" class="profile-pic">
+                        <div class="testimonial-content light">
+                            <span class="quote-icon">“</span>
+                            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="name">Client One</p>
+                            <p class="role">CEO, Company One</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card bg-dark text-light shadow slide-up">
+                        <h2 class="mt-3">Our Client <span class="subtitle">Testimonials</span></h2>
+                        <img src="/images/person/37007872566c437949c877d092766fda.jpg" alt="Client Photo" class="profile-pic">
+                        <div class="testimonial-content">
+                            <span class="quote-icon">“</span>
+                            <p>Lorem ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <p class="name">Client Two</p>
+                            <p class="role">Founder, Company Two</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="testimonial-card bg-light shadow slide-up">
+                        <h2 class="mt-3">Our Client <span class="subtitle">Testimonials</span></h2>
+                        <img src="/images/person/38024ee2f40190ae5891c6d110ea878e.jpg" alt="Client Photo" class="profile-pic">
+                        <div class="testimonial-content light">
+                            <span class="quote-icon">“</span>
+                            <p>Dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            <p class="name">Client Three</p>
+                            <p class="role">Manager, Company Three</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card bg-dark text-light shadow slide-up">
+                        <h2 class="mt-3">Our Client <span class="subtitle">Testimonials</span></h2>
+                        <img src="/images/person/c2af8a512a6838bd82ee01bcbedc49dc.jpg" alt="Client Photo" class="profile-pic">
+                        <div class="testimonial-content">
+                            <span class="quote-icon">“</span>
+                            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="name">Client Four</p>
+                            <p class="role">Director, Company Four</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more slides as needed following the same pattern -->
+        </div>
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- end testimonial-->
+      </div>
+    <!-- footer -->
+    <footer class="footer mt-5">
+      <div style="margin-left: 100px; margin-right: 100px;">
+          <div class="row text-center text-md-start">
+              <div class="col-md-4 mb-4">
+                  <div class="logo slide-up">
+                      <img src="/images/logo/logo.png" alt="Logo" width="100" height="100" ><span class="text-light">tepen website</span>
+                  </div>
+                  <p class="slide-up text-light">bunny ecommerce website</p>
+              </div>
+              <div class="col-md-3">
+                  <h6 class="slide-up text-light">Navigation</h6>
+                  <ul class="list-unstyled slide-up">
+                      <li><a href="#" class="text-white">Home</a></li>
+                      <li><a href="#" class="text-white">shop</a></li>
+                      <li><a href="#" class="text-white">about</a></li>
+                      <li><a href="#" class="text-white">services</a></li>
+                      <li><a href="#" class="text-white">contact</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h6 class="text-light">Dog breeds</h6>
+                  <ul class="list-unstyled slide-up">
+                      <li><a href="#" class="text-light">bulldog</a></li>
+                      <li><a href="#" class="text-light">golden retriever  </a></li>
+                      <li><a href="#" class="text-light">chihuahua         </a></li>
+                      <li><a href="#" class="text-light">german            </a></li>
+                      <li><a href="#" class="text-light">husky             </a></li>
+                      <li><a href="#" class="text-light">pitbull           </a></li>
+                      <li><a href="#" class="text-light">Rootweil          </a></li>
+                  </ul>
+              </div>
+              <div class="col-md-2">
+                  <h6 class="text-light">Services</h6>
+                  <ul class="list-unstyled slide-up">
+                      <li><a href="#" class="text-white">Grooming</a></li>
+                      <li><a href="#" class="text-white">pet consultation</a></li>
+                      <li><a href="#" class="text-white"></a></li>
+                      <li><a href="#" class="text-white"></a></li>
+                      <li><a href="#" class="text-white"></a></li>
+                      <li><a href="#" class="text-white"></a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div>
+          <p class="text-center text-light">&copy; 2022 molly bark-hub • All Rights Reserved</p>
+      </div>
+      </footer>
+      <!-- end footer -->
+
+
+    <!-- Bootstrap JS and Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/show-category.js"></script>
+    <script src="/js/slide-up.js"></script>
+</body>
+</html>

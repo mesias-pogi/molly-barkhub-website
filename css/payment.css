@@ -1,0 +1,58 @@
+.progress-bar-step {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.progress-bar-step .step {
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar-step .step.completed {
+    color: #28a745;
+}
+
+.progress-bar-step .step.active {
+    color: #007bff;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-methods .btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.payment-methods .btn.active {
+    border-color: #007bff;
+    background: #e9f5ff;
+}
+
+.payment-methods .btn img {
+    height: 20px;
+}
+
+.form-group input {
+    height: 50px;
+    border-radius: 8px;
+}
+
+.place-order {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+}
